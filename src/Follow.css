@@ -1,5 +1,5 @@
 .Follow {
-  background: #ff7367;
+  background: #0f0f0f;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
@@ -44,4 +44,12 @@
     text-transform: none;
     margin-top: auto;
     padding: 0 0 5px 0;
+    color: white;
+  }
+
+  em {
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
   }

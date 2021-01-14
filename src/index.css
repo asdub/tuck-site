@@ -9,8 +9,9 @@ body {
 }
 
 span {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #ff7367;
 }
 
 p {

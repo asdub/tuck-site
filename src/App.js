@@ -4,12 +4,14 @@ import './App.css';
 import {useSpring, animated} from 'react-spring';
 import backgroundVideo from './plants.mp4';
 import backgroundVideoThumb from './plants.png';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+
 
 function App() {
   const props = useSpring({
       opacity: 1, 
       from: {opacity: 0}, 
-      config: {delay: 10, duration: 2000},
+      config: {delay: 0, duration: 1500},
       });
   return (
     <div className="App">
@@ -37,7 +39,7 @@ function App() {
         <meta name="twitter:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
       </Helmet>
       <main className="App-header">
-      <video playsinline autoPlay muted loop poster={backgroundVideoThumb} id="bgvid">
+      <video playsInline autoPlay muted loop poster={backgroundVideoThumb} id="bgvid">
         <source src={backgroundVideo} type="video/mp4" />
       </video>
         <animated.div style={props}><img src={logo} className="App-logo" alt="logo" /></animated.div>
@@ -45,7 +47,7 @@ function App() {
           Proper Coffee, delicious treats and more.. 
         </p>
         <span className="Coming"> 
-          Coming to <br /> Dublin's Northside early 2021.
+          <em><FaMapMarkerAlt />  Dublin's Northside</em><br />Exact location TBA <em>/</em> Opening early 2021.
         </span>
       </main>
     </div>
