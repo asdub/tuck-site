@@ -1,0 +1,43 @@
+.Follow {
+  background: #ff7367;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Follow-content {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem;
+    padding: 0 0 0.5rem 0;
+  }
+  
+  .Bunus-instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+  }
+  .Bunus-instagram:hover,
+  .Bunus-instagram:focus {
+    transform: scale(1.15);
+  }
+  
+  .Bunus-instagram span {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .Copyright {
+    font-weight: 400;
+    font-size: 0.7rem;
+    text-transform: none;
+    position: absolute;
+    bottom: 0;
+  }
