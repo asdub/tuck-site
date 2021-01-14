@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {useSpring, animated} from 'react-spring';
 import backgroundVideo from './plants.mp4';
-import backgroundVideoThumb from './plants.png';
+import backgroundVideoThumb from './plants.jpg';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 
