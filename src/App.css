@@ -22,7 +22,7 @@ div.App > main > p {
   font-weight: 500;
 }
 
-#bgvid {
+#bgvid, #bgimg {
   position: fixed;
   z-index: -1;
   object-fit: cover;

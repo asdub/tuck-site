@@ -47,7 +47,7 @@ export default function Video() {
   }, []);
 
   return shouldUseImage ? (
-    <img src={mainVideo} alt="Background Video" />
+    <img id="bgimg" src={mainVideo} alt="Background Video" />
   ) : (
     <div
       ref={videoParentRef}
