@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import backgroundVideo from './plants.mp4';
+import backgroundImage from './plants.jpg';
 
 const isSafari = () => {
   const ua = navigator.userAgent.toLowerCase();
@@ -7,6 +8,7 @@ const isSafari = () => {
 };
 
 const mainVideo = backgroundVideo;
+const mainImage = backgroundImage;
 
 export default function Video() {
   const videoParentRef = useRef();
@@ -47,7 +49,7 @@ export default function Video() {
   }, []);
 
   return shouldUseImage ? (
-    <img id="bgimg" src={mainVideo} alt="Background Video" />
+    <img id="bgimg" src={backgroundImage} alt="Background Video" />
   ) : (
     <div
       ref={videoParentRef}
