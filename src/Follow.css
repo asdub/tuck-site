@@ -1,11 +1,12 @@
 .Follow {
   background: #0f0f0f;
-  min-height: 30vh;
+  min-height: calc(30vh - 6px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   border-top: 6px solid #fff;
+  z-index: 1;
 }
 
 .Follow-content {
