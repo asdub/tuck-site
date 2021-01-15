@@ -4,6 +4,7 @@ import './App.css';
 import {useSpring, animated} from 'react-spring';
 import backgroundVideo from './plants.mp4';
 import backgroundVideoThumb from './plants.jpg';
+import Video from './video.js';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 
@@ -39,9 +40,7 @@ function App() {
         <meta name="twitter:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
       </Helmet>
       <main className="App-header">
-      <video playsInline autoPlay muted loop poster={backgroundVideoThumb} id="bgvid">
-        <source src={backgroundVideo} type="video/mp4" />
-      </video>
+      <Video />
         <animated.div style={props}><img src={logo} className="App-logo" alt="logo" /></animated.div>
         <p>
           Proper Coffee, delicious treats and more.. 
