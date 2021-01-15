@@ -27,7 +27,7 @@ function Follow() {
             </a>
         </div>
         <p className="Copyright">
-            ©2020 Bunús Coffee
+            ©2021 Bunús Coffee
         </p>
     </div>
     </animated.div>
