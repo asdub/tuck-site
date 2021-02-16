@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
-import backgroundVideo from './plants.mp4';
-import backgroundImage from './plants.jpg';
+//import backgroundVideo from './plants.mp4';
+//import backgroundImage from './plants.jpg';
 
 const isSafari = () => {
   const ua = navigator.userAgent.toLowerCase();

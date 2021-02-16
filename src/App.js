@@ -2,7 +2,6 @@ import Helmet from "react-helmet";
 import logo from './logo.svg';
 import './App.css';
 import {useSpring, animated} from 'react-spring';
-import Video from './video.js';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 
@@ -38,7 +37,7 @@ function App() {
         <meta name="twitter:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
       </Helmet>
       <main className="App-header">
-      <Video />
+   
         <animated.div style={props}><img src={logo} className="App-logo" alt="logo" /></animated.div>
         <p>
           Speciality Coffee, delicious treats & more.. 
