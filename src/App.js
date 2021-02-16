@@ -9,7 +9,7 @@ function App() {
   const props = useSpring({
       opacity: 1, 
       from: {opacity: 0}, 
-      config: {delay: 0, duration: 1500},
+      config: {delay: 0, duration: 500},
       });
   return (
     <div className="App">

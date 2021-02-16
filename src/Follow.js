@@ -7,7 +7,7 @@ function Follow() {
     const props = useSpring({
       opacity: 1, 
       from: {opacity: 0}, 
-      config: {delay: 0, duration: 1000},
+      config: {delay: 0, duration: 100},
       });
   return (
     <animated.div style={props}>
