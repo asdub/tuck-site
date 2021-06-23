@@ -1,5 +1,5 @@
 .Follow {
-  background: #ffecea;
+  background: rgba(241, 240, 234, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +9,8 @@
 }
 
 .Follow-content {
-    color: #6a6b6b;
-    font-size: 1rem;
+    color: #191919;
+    font-size: 0.8rem;
     font-weight: 500;
     margin: 0;
     padding: 0 0 0.5rem 0;
@@ -23,21 +23,21 @@
   border: 2px solid #f0f0f1;
 }
   
-  .Bunus-instagram {
+  .tuck-instagram {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ff7367;
+    color: #191919;
     font-size: 3rem;
     transition: all 0.25s ease-in-out;
     text-decoration: none;
   }
-  .Bunus-instagram:hover,
-  .Bunus-instagram:focus {
+  .tuck-instagram:hover,
+  .tuck-instagram:focus {
     transform: scale(1.15);
   }
   
-  .Bunus-instagram span {
+  .tuck-instagram span {
     font-size: 0.8rem;
     font-weight: 500;
   }
@@ -46,8 +46,9 @@
     font-weight: 400;
     font-size: 0.7rem;
     text-transform: none;
+    margin: 0;
     margin-top: auto;
-    padding: 0 0 5px 0;
+    padding: 0 0 10px 0;
     color: #939597;
   }
 

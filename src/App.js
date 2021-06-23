@@ -1,5 +1,7 @@
 import Helmet from "react-helmet";
 import logo from './logo.svg';
+import tucklogo from './tuck.svg';
+import logotag from './logotag.svg';
 import './App.css';
 import {useSpring, animated} from 'react-spring';
 import { FaMapMarkerAlt } from 'react-icons/fa';
@@ -11,40 +13,51 @@ function App() {
       from: {opacity: 0}, 
       config: {delay: 0, duration: 500},
       });
+  const slow = useSpring({
+      opacity: 1, 
+      from: {opacity: 0}, 
+      config: {delay: 0, duration: 100},
+      });
   return (
     <div className="App">
       <Helmet>
          {/* <!-- HTML Meta Tags --> */}
-        <title>Bunús Coffee, Dublin</title>
-        <meta name="description" content="Speciality Coffee, Treats & more coming to Dublin's Northside in early 2021." />
+        <title>TUCK</title>
+        <meta name="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
 
         {/* <!-- Google / Search Engine Tags --> */}
-        <meta itemprop="name" content="Bunús Coffee, Dublin" />
-        <meta itemprop="description" content="Speciality Coffee, Treats & more coming to Dublin's Northside in early 2021." />
+        <meta itemprop="name" content="TUCK, Howth" />
+        <meta itemprop="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
         <meta itemprop="image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
 
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="http://bunus.netlify.app" />
+        <meta property="og:url" content="https://tuck.ie" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Bunús Coffee, Dublin" />
-        <meta property="og:description" content="Speciality Coffee, Treats & more coming to Dublin's Northside in early 2021." />
+        <meta property="og:title" content="TUCK, Howth" />
+        <meta property="og:description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
         <meta property="og:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Bunús Coffee, Dublin" />
-        <meta name="twitter:description" content="Speciality Coffee, Treats & more coming to Dublin's Northside in early 2021. " />
+        <meta name="twitter:description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
         <meta name="twitter:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
       </Helmet>
-      <main className="App-header">
-   
-        <animated.div style={props}><img src={logo} className="App-logo" alt="logo" /></animated.div>
-        <p>
-          Speciality Coffee, delicious treats & more.. 
-        </p>
+      <main className="App-content">
+       <animated.div style={props} className="logo-container">
+        <img src={tucklogo} className="Tuck-logo" alt="TUCK" />
+        <img src={logotag} className="logo-tag" alt="TUCK" />
+        </animated.div>
+        <div className="App-header">
+    
+          <animated.div style={slow}><img src={logo} className="App-logo" alt="QR Code - Scan" /></animated.div>
+          <p>
+           COMING SOON
+          </p>
         <span className="Coming"> 
-          <em><FaMapMarkerAlt />  Dublin's Northside</em><br />Exact location TBA <em>/</em> Opening early 2021.
+          <em><FaMapMarkerAlt />  Howth, Co. Dublin</em>
         </span>
+        </div>
       </main>
     </div>
   );

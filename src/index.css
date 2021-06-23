@@ -10,14 +10,14 @@ body {
 
 span {
   font-weight: 400;
-  font-size: 0.9rem;
-  color: #ff7367;
+  font-size: 0.8rem;
+  color: #191919;
   line-height: 1.6rem;
 }
 
 p {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
   text-transform: uppercase;
   margin-left: 1rem;
   margin-right: 1rem;

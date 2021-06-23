@@ -17,17 +17,17 @@ function Follow() {
             Follow us for more information
             </p>
             <a
-            className="Bunus-instagram"
-            href="https://www.instagram.com/bunuscoffee/"
+            className="tuck-instagram"
+            href="https://www.instagram.com/tuck_howth/"
             target="_blank"
             rel="noopener noreferrer"
             >
             <FontAwesomeIcon icon={faInstagram} />
-            <span>@bunuscoffee</span>
+            <span>@tuck_howth</span>
             </a>
         </div>
         <p className="Copyright">
-            ©2021 Bunús Coffee
+            ©2021 TUCK
         </p>
     </div>
     </animated.div>
