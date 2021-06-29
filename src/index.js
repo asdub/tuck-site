@@ -7,7 +7,6 @@ import Follow from './Follow';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Follow />
   </React.StrictMode>,
   document.getElementById('root')
 );

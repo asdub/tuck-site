@@ -5,6 +5,8 @@ import logotag from './logotag.svg';
 import './App.css';
 import {useSpring, animated} from 'react-spring';
 import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 function App() {
@@ -55,10 +57,31 @@ function App() {
            COMING SOON
           </p>
         <span className="Coming"> 
-          <em><FaMapMarkerAlt />  Howth, Co. Dublin</em>
+          <em><FaMapMarkerAlt />  Harbour Road, Howth, Co. Dublin</em>
         </span>
         </div>
+        <animated.div style={slow}>
+          <div className="Follow">
+              <div className="Follow-inner">
+                  <p className="Follow-content"> 
+                    Follow us for the latest and updates
+                  </p>
+                  <a
+                  className="tuck-instagram"
+                  href="https://www.instagram.com/tuck_howth/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <span>@tuck_howth</span>
+                  </a>
+              </div>
+          </div>
+        </animated.div>
       </main>
+      <p className="Copyright">
+        Copyright © 2021 TUCK
+      </p> 
     </div>
   );
 }

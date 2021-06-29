@@ -5,12 +5,12 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background :rgba(241, 240, 234, 0.8);;
+  background :rgba(241, 240, 234,1);
 }
 
 span {
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: #191919;
   line-height: 1.6rem;
 }
