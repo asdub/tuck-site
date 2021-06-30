@@ -28,22 +28,22 @@ function App() {
         <meta name="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
 
         {/* <!-- Google / Search Engine Tags --> */}
-        <meta itemprop="name" content="TUCK, Howth" />
+        <meta itemprop="name" content="TUCK" />
         <meta itemprop="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
-        <meta itemprop="image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
+        <meta itemprop="image" content="https://tuck.netlify.app/static/media/logo.fcd4cf9c.svg" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://tuck.ie" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="TUCK, Howth" />
+        <meta property="og:title" content="TUCK" />
         <meta property="og:description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
-        <meta property="og:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
+        <meta property="og:image" content="https://tuck.netlify.app/static/media/logo.fcd4cf9c.svg" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Bunús Coffee, Dublin" />
+        <meta name="twitter:title" content="TUCK" />
         <meta name="twitter:description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
-        <meta name="twitter:image" content="https://bunus.netlify.app/static/media/logo.fcd4cf9c.svg" />
+        <meta name="twitter:image" content="https://tuck.netlify.app/static/media/logo.fcd4cf9c.svg" />
       </Helmet>
       <main className="App-content">
        <animated.div style={props} className="logo-container">
