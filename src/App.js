@@ -54,17 +54,17 @@ function App() {
     
           <animated.div style={slow}><img src={logo} className="App-logo" alt="QR Code - Scan" /></animated.div>
           <p>
-           COMING SOON
+           OPEN 8AM - 8PM / MON - SUN
           </p>
         <span className="Coming"> 
-          <em><FaMapMarkerAlt />  Harbour Road, Howth, Co. Dublin</em>
+          <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
         </span>
         </div>
         <animated.div style={slow}>
           <div className="Follow">
               <div className="Follow-inner">
                   <p className="Follow-content"> 
-                    Follow us for the latest and updates
+                    Follow us
                   </p>
                   <a
                   className="tuck-instagram"
