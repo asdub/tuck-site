@@ -119,6 +119,11 @@ div.App > main > p {
     fill: #50b8d7;
   }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media only screen and (max-width: 667px) {
   .Coming {
     margin: 1rem;
