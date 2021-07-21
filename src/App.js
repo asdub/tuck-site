@@ -57,7 +57,7 @@ function App() {
            OPEN 8AM - 8PM / MON - SUN
           </p>
         <span className="Coming"> 
-          <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
+          <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
         </span>
         </div>
         <animated.div style={slow}>
