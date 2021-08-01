@@ -52,7 +52,7 @@ function App() {
         </animated.div>
         <div className="App-header">
     
-          <animated.div style={slow}><img src={logo} className="App-logo" alt="QR Code - Scan" /></animated.div>
+          <animated.div style={slow}><img src={logo} className="App-logo" alt="Hello Howth" /></animated.div>
           <p>
            OPEN <br />
            WEEKDAYS / 8AM - 8PM <br />
