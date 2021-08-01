@@ -55,10 +55,10 @@ function App() {
           <animated.div style={slow}><img src={logo} className="App-logo" alt="QR Code - Scan" /></animated.div>
           <p>
            OPEN <br>
-           WEEKDAYS / 8AM - 8PM <br>
-           FRIDAY / 8AM - 10PM <br>
-           SATURDAY / 10AM - 10PM <br>
-           SUNDAY / 10AM - 8PM <br>
+           WEEKDAYS / 8AM - 8PM <br />
+           FRIDAY / 8AM - 10PM <br />
+           SATURDAY / 10AM - 10PM <br />
+           SUNDAY / 10AM - 8PM <br />
           </p>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
