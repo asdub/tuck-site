@@ -55,10 +55,8 @@ function App() {
           <animated.div style={slow}><img src={logo} className="App-logo" alt="Hello Howth" /></animated.div>
           <p>
            OPEN <br />
-           WEEKDAYS / 8AM - 8PM <br />
-           FRIDAY / 8AM - 8PM <br />
-           SATURDAY / 8AM - 8PM <br />
-           SUNDAY / 8AM - 8PM <br />
+           WEEKDAYS / WEEKENDS <br />
+           8AM - 8PM
           </p>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
