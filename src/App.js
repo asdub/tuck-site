@@ -25,7 +25,7 @@ function App() {
       <Helmet>
          {/* <!-- HTML Meta Tags --> */}
         <title>TUCK - Speciality Coffee, Ice-Cream & Snack Bar</title>
-        <meta name="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." />
+        <meta name="description" content="Speciality Coffee, Ice-Cream & Snack Bar in Howth, Co. Dublin." data-react-helmet="true" />
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="TUCK" />
