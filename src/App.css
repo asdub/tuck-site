@@ -95,7 +95,7 @@ div.App > main > p {
   .tuck-instagram:hover,
   .tuck-instagram:focus {
     transform: scale(1.15);
-    color: #50b8d7;
+    color: #fbe6e5;
   }
   
   .tuck-instagram span {
@@ -121,7 +121,7 @@ div.App > main > p {
   }
 
   div > main > div.App-header > span > em > svg > path {
-    fill: #50b8d7;
+    fill: #fbe6e5;
   }
 
 a {

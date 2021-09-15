@@ -61,7 +61,7 @@ function App() {
         <span className="blurb">
           <p>Speciality Coffee / Handmade Irish Gelato <br />
           Artisanal Pastries & Sandwiches / Confectionery</p>
-          <em>Extensive range of free-from & vegan treats</em><br />
+          <em>Extensive range of free-from & vegan treats</em>
         </span>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
