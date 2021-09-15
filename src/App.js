@@ -58,10 +58,10 @@ function App() {
            WEEKDAYS / WEEKENDS <br />
            8AM - 8PM
           </p>
-        <span className="Coming">
-          <em>Speciality Coffee / Handmade Irish Gelato <br />
-          Artisanal Pastries & Sandwiches / Confectionery</em>
-          <em>Extensive range of free-from & vegan treats</em>
+        <span className="blurb">
+          <p>Speciality Coffee / Handmade Irish Gelato <br />
+          Artisanal Pastries & Sandwiches / Confectionery</p>
+          <em>Extensive range of free-from & vegan treats</em><br />
         </span>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
