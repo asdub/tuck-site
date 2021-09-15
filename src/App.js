@@ -60,7 +60,7 @@ function App() {
           </p>
         <span className="Coming">
           <em>Speciality Coffee / Handmade Irish Gelato <br />
-          Pastries & Sandwiches / Confectionery</em>
+          Artisanal Pastries & Sandwiches / Confectionery</em>
           <em>Extensive range of free-from & vegan treats</em>
         </span>
         <span className="Coming"> 
