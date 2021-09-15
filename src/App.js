@@ -48,7 +48,7 @@ function App() {
       <main className="App-content">
        <animated.div style={props} className="logo-container">
         <img src={tucklogo} className="Tuck-logo" alt="TUCK" />
-        <img src={logotag} className="logo-tag" alt="TUCK" />
+        <img src={logotag} className="logo-tag" alt="Speciality Coffee, Ice-Cream & Snack Bar in Howth" />
         </animated.div>
         <div className="App-header">
     
@@ -58,6 +58,10 @@ function App() {
            WEEKDAYS / WEEKENDS <br />
            8AM - 8PM
           </p>
+        <span className="Coming">
+          <em>Speciality Coffee / Handmade Irish Gelato / Pastries & Sandwiches / Confectionery</em>
+          <p>Extensive range of free-from & vegan treats</p>
+        </span>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
         </span>
