@@ -18,7 +18,7 @@ function App() {
   const slow = useSpring({
       opacity: 1, 
       from: {opacity: 0}, 
-      config: {delay: 0, duration: 100},
+      config: {delay: 0, duration: 400},
       });
   return (
     <div className="App">
@@ -59,8 +59,9 @@ function App() {
            8AM - 8PM
           </p>
         <span className="Coming">
-          <em>Speciality Coffee / Handmade Irish Gelato / Pastries & Sandwiches / Confectionery</em>
-          <p>Extensive range of free-from & vegan treats</p>
+          <em>Speciality Coffee / Handmade Irish Gelato <br />
+          Pastries & Sandwiches / Confectionery</em>
+          <em>Extensive range of free-from & vegan treats</em>
         </span>
         <span className="Coming"> 
           <em><FaMapMarkerAlt />  <a href="https://goo.gl/maps/1DNZHTYE98dihUSN7" target="_blank" rel="noreferrer">Boyd House, Harbour Road, Howth, Co. Dublin</a></em>
