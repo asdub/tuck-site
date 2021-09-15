@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.blurb em {
+  color: #fbe6e5;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

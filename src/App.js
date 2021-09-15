@@ -59,8 +59,8 @@ function App() {
            8AM - 8PM
           </p>
         <span className="blurb">
-          <p>Speciality Coffee / Handmade Irish Gelato <br />
-          Artisanal Pastries & Sandwiches / Confectionery</p>
+          <p>Speciality Coffee <em>/</em> Handmade Irish Gelato <br />
+          Artisanal Pastries & Sandwiches <em>/</em> Confectionery</p>
           <em>Extensive range of free-from & vegan treats</em>
         </span>
         <span className="Coming"> 
