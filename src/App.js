@@ -54,7 +54,7 @@ function App() {
     
           <animated.div style={slow}><img src={logo} className="App-logo" alt="Hello Howth" /></animated.div>
           <p>
-           OPEN <br />
+           <em>OPEN</em> <br />
            WEEKDAYS / WEEKENDS <br />
            8AM - 8PM
           </p>

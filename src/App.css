@@ -8,7 +8,7 @@
 }
 
 .blurb em {
-  color: #fbe6e5;
+  color: #e68177;
 }
 
 .App-logo {
@@ -99,7 +99,7 @@ div.App > main > p {
   .tuck-instagram:hover,
   .tuck-instagram:focus {
     transform: scale(1.15);
-    color: #fbe6e5;
+    color: #e68177;
   }
   
   .tuck-instagram span {
@@ -125,7 +125,7 @@ div.App > main > p {
   }
 
   div > main > div.App-header > span > em > svg > path {
-    fill: #fbe6e5;
+    fill: #e68177;
   }
 
 a {
