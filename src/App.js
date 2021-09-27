@@ -55,8 +55,9 @@ function App() {
           <animated.div style={slow}><img src={logo} className="App-logo" alt="Hello Howth" /></animated.div>
           <p>
            <em>OPEN</em> <br />
-           WEEKDAYS / WEEKENDS <br />
-           8AM - 8PM
+           8AM - 8PM <br />
+           SUNDAY <br />
+           9AM - 8PM <br />
           </p>
         <span className="blurb">
           <p>Speciality Coffee <em>/</em> Handmade Irish Gelato <br />
